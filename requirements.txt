@@ -1,0 +1,5 @@
+nltk==3.3
+requests==2.20.0
+newspaper3k==0.2.8
+beautifulsoup4==4.6.3
+newspaper==0.1.0.7
