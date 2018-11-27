@@ -16,13 +16,14 @@ requirements
 ```
 
 ## upcoming (near future)
-* List of sources to choose from, not just Google News RSS 
-* Contextual polarity extraction 
+* List of sources to choose from, not just Google News RSS / Yahoo Finance 
+* Contextual polarity extraction for better accuracy
+* Date range selection
 
 ## to-do list (distant future)
 * Clean up code 
 * Remove urllib
-* Improve accuracy of lexicon (difficult to do, most financial news articles use their own jargon so Amazon Mechanical Turk might not work well) 
+* Improve accuracy of lexicon (might use Tensorflow)
 * Add graphing of market sentiment change over time, probably with [hipsterplot](https://github.com/imh/hipsterplot)
 
 
@@ -54,3 +55,15 @@ Currently working on fixing this, will be adding more exclusively financial news
 
 ### i bought calls on AMD when luna said it was very bullish and now i have to remortgage my house and sell my car wtf??? im suing
 lol 
+
+## Sources
+https://people.cs.pitt.edu/~wiebe/pubs/papers/emnlp05polarity.pdf
+
+https://pdfs.semanticscholar.org/b7e9/18806d84412e791a479eb7df05ed1b06ba76.pdf
+
+https://www.aclweb.org/anthology/J/J09/J09-3003.pdf
+
+http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf
+
+https://researchgate.net/publication/283954600_Sentiment_Analysis_An_Overview_from_Linguistics
+
