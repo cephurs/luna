@@ -1,7 +1,6 @@
 
 from time import sleep
 import requests
-import newspaper
 from statistics import mean
 
 from newspaper import Article
@@ -9,11 +8,9 @@ from newspaper import Config
 from newspaper import fulltext
 from os import sys
 
-import bs4
 from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen
 
-import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer  
 
 import luna_lexicon
